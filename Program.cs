@@ -1,7 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using CodingDemo.LearnArrays;
+using CodingDemo.LinkedList;
 using CodingDemo.Sort;
+using System.Collections.Generic;
 
 Console.WriteLine("Hello, World!");
 
@@ -43,15 +45,24 @@ Console.WriteLine("Hello, World!");
 
 
 
-int[] arr = { 10, 80, 30, 90, 40 };
+//int[] arr = { 10, 80, 30, 90, 40 };
 
-QuickSort qs = new QuickSort();
-qs.Sort(arr, 0, arr.Length - 1);
+//QuickSort qs = new QuickSort();
+//qs.Sort(arr, 0, arr.Length - 1);
 
-foreach (var item in arr)
+//foreach (var item in arr)
+//{
+//    Console.WriteLine(item);    
+//}
+
+LinkedListImplementation list = new LinkedListImplementation(); // Linked List created
+for (int i = 1; i < 10; i++)
 {
-    Console.WriteLine(item);    
+    list.InsertAtHead(i); // inserting data at head of the list
+    list.PrintList();
 }
+
+
 
 
 
