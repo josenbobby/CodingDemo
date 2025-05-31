@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using CodingDemo;
 using CodingDemo.LearnArrays;
 using CodingDemo.LinkedList;
 using CodingDemo.Sort;
@@ -39,9 +40,10 @@ Console.WriteLine("Hello, World!");
 // FirstUniqueInteger fu = new FirstUniqueInteger();
 // var number = fu.FirstUnique(arr, arr.Length);
 
-// int[] arr = { 23, 1, 10, 5, 2 };
-// InsertionSort sort  = new InsertionSort();
-// sort.Sort(arr);
+int[] arr = { 23, 1, 10, 5, 2 };
+InsertionSort sort = new InsertionSort();
+sort.Sort(arr);
+Utility.PrintArray(arr);
 
 
 
@@ -55,12 +57,12 @@ Console.WriteLine("Hello, World!");
 //    Console.WriteLine(item);    
 //}
 
-LinkedListImplementation list = new LinkedListImplementation(); // Linked List created
-for (int i = 1; i < 10; i++)
-{
-    list.InsertAtHead(i); // inserting data at head of the list
-    list.PrintList();
-}
+//LinkedListImplementation list = new LinkedListImplementation(); // Linked List created
+//for (int i = 1; i < 10; i++)
+//{
+//    list.InsertAtHead(i); // inserting data at head of the list
+//    list.PrintList();
+//}
 
 
 

@@ -49,7 +49,7 @@ public class BubbleSort
     }
 
     // An optimized version of Bubble Sort From GFG
-    static void bubbleSort(int[] arr, int n)
+    static void BubbleSortGFG(int[] arr, int n)
     {
         int i, j, temp;
         bool swapped;
